@@ -1,0 +1,169 @@
+@font-face {
+	font-family: 'Noto Sans JP';
+	src:
+		local('Noto Sans JP'),
+		url(/fonts/NotoSansJP-Regular.ttf)format('truetype');
+}
+
+:root,
+body {
+
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	min-height: 100vh;
+
+	* {
+
+		font-family: 'Noto Sans JP', sans-serif;
+
+	}
+}
+
+h1,
+h2 {
+
+	padding: .3em 2rem;
+
+}
+
+h3,
+h4,
+h5,
+h6,
+p {
+
+	padding: .1em 2rem;
+
+}
+
+h1 {
+
+	margin: 0;
+	text-align: center;
+	font-size: 29pt;
+	line-height: 1.45;
+
+}
+
+h2 {
+
+	font-size: 20pt;
+	line-height: 1.54;
+
+}
+
+p {
+
+	font-size: 14pt;
+	padding: 0 2em;
+	line-height: 1.7;
+
+}
+
+details {
+
+	margin: 1em 0;
+	padding: 0 2rem;
+
+	p {
+
+		font-size: 13pt;
+
+	}
+
+}
+
+ul {
+
+	margin-left: 2rem;
+	font-size: 14pt;
+
+}
+
+a {
+
+	color: black;
+
+	&[target="_blank"]::after {
+		content: "open_in_new";
+		font-family: 'Material Symbols Outlined';
+		font-weight: normal;
+		font-style: normal;
+		font-size: 24px;
+		line-height: 1;
+		letter-spacing: normal;
+		text-transform: none;
+		display: inline-block;
+		white-space: nowrap;
+		word-wrap: normal;
+		direction: ltr;
+		font-feature-settings: 'liga';
+		-webkit-font-feature-settings: 'liga';
+		-webkit-font-smoothing: antialiased;
+		vertical-align: middle;
+	}
+
+}
+
+span {
+
+	display: inline-block;
+
+}
+
+@media (max-width: 540px) {
+
+	h1 {
+
+		font-size: 19pt;
+
+	}
+
+	h2 {
+
+		font-size: 15pt;
+
+	}
+
+	p {
+
+		font-size: 12pt;
+
+	}
+
+	ul {
+
+		font-size: 12pt;
+
+	}
+
+	details p {
+
+		font-size: 11pt;
+
+	}
+
+}
+
+@media (max-width: 400px) {
+
+	h1 {
+
+		font-size: 16pt;
+
+	}
+
+	p {
+
+		font-size: 11pt;
+
+	}
+
+	details p {
+
+		font-size: 10pt;
+
+	}
+
+}

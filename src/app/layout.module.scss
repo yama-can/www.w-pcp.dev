@@ -1,0 +1,63 @@
+.header {
+
+	position: fixed;
+	background: #fff;
+	width: 100%;
+	box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+	z-index: 1000;
+	text-align: center;
+
+	nav {
+
+		display: inline-block;
+
+	}
+
+	* {
+
+		display: inline-block;
+
+	}
+
+	div {
+
+		a {
+
+			position: relative;
+			font-size: 15pt;
+			text-align: center;
+			width: 5em;
+			line-height: 2.5em;
+			text-decoration: none;
+
+		}
+
+	}
+
+}
+
+.page {
+
+	padding-top: 9rem;
+	margin: 0 5rem;
+
+}
+
+@media (max-width: 840px) {
+
+	.page {
+
+		margin: 0 1rem;
+
+	}
+
+}
+
+.footer {
+
+	background-color: #f8f8f8;
+	padding: 1rem 0;
+	margin: 2rem 0 0 0;
+	text-align: right;
+
+}
