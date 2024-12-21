@@ -1,10 +1,3 @@
-@font-face {
-	font-family: 'Noto Sans JP';
-	src:
-		local('Noto Sans JP'),
-		url(/fonts/NotoSansJP-Regular.ttf)format('truetype');
-}
-
 :root,
 body {
 
@@ -15,7 +8,7 @@ body {
 
 	* {
 
-		font-family: 'Noto Sans JP', sans-serif;
+		font-family: Lato;
 
 	}
 }
